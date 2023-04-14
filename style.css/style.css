@@ -1,0 +1,238 @@
+
+
+.home {
+	float: right;
+	padding-right: 20px;
+	background-color: rgb(9, 10, 10);
+	margin: 30px;
+}
+
+#div1 {
+	margin: 0px 18% 20px 25%;
+	width: 460px;
+	background-color: white;
+	padding-left: 50px;
+	padding-top: 30px;
+	padding-bottom: 60px;
+	box-shadow: 0px 0px 2px gray;
+}
+
+#img1 {
+	width: 120px;
+}
+
+#p1 {
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: -10px;
+}
+
+#textbox {
+	border: 1px solid #ffffff;
+	font-size: 18px;
+}
+
+hr {
+	width: 400px;
+	margin-right: 100px;
+	margin-bottom: 17px;
+}
+
+#label1 {
+	color: #1b1b1b;
+	font-size: 17px;
+}
+
+#a1 {
+	color: #108df3;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+#a1:hover {
+	text-decoration: underline;
+	color: #666666;
+
+}
+
+#a2 {
+	font-size: 17px;
+	text-decoration: none;
+	color: #108df3;
+	float: left;
+	margin-right: 0px;
+}
+
+#a2:hover {
+	text-decoration: underline;
+	color: #666666;
+}
+
+#a3 {
+	float: left;
+	margin-left: -10px;
+}
+
+#img2 {
+	width: 43px;
+
+}
+
+#submit {
+	width: 120px;
+	background-color: #005da6;
+	color: white;
+	font-size: 18px;
+	padding: 7px;
+	border: 1px solid #005da6;
+	margin-left: 296px;
+	margin-top: 15px;
+	opacity: 0.9;
+}
+
+#submit:hover {
+	cursor: pointer;
+	opacity: 1;
+}
+
+.div2 {
+	margin: 22px 0px 20px 25%;
+	background-color: white;
+	
+	box-shadow: 0px 2px 3px gray;
+	width: 510px;
+}
+ #label3{
+	padding-top: 20px;
+	font-size: 18px;
+ }
+.div2 div{
+	display: flex;
+	padding-left: 30px;
+}
+
+#img3 {
+	width: 55px;
+	
+}
+
+/* /* #label2{
+	font-size: 19px;
+	float: left;
+	margin-top: 19px; */
+ 
+#button1 {
+	background-color: #ffffff;
+	border: 0px solid #ffffff;
+	width: 510px;
+}
+
+#button1:hover {
+	cursor: pointer;
+	background-color: #e5e5e5;
+	border: 1px solid #e5e5e5;
+}
+
+#div3 {
+	margin-top: 70px;
+	margin: 80px 18% 20px 25%;
+}
+
+#a4 {
+	color: black;
+	text-decoration: none;
+}
+
+#a4:hover {
+	text-decoration: underline;
+}
+
+#a5 {
+	color: black;
+	margin-left: 20px;
+	text-decoration: none;
+}
+
+#a5:hover {
+	text-decoration: underline;
+}
+
+/*------------------------------------mobile view css----------------------------------------------------------------*/
+
+.mobile{
+	text-align: left;
+	width: 450px;
+	background-color: white;
+	margin: 10px 50px 0px 50px ;
+
+
+
+}
+#d1{
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: -10px;
+}
+.div10{
+border: 1px solid black;
+margin-top:60px ;
+}
+.div10:hover{
+	background-color: rgb(235, 204, 204);
+}
+.div10 div{
+	display: flex;
+	padding-left: 30px;
+}
+#label1{
+	padding-top: 20px;
+	font-size: 18px;
+ }
+#div7{
+	margin-top: 70px;
+
+}
+#submit button{
+	width: 120px;
+	background-color: #108bea;
+	color: white;
+	font-size: 18px;
+	padding: 7px;
+	border: 1px solid #005da6;
+	margin-left: 296px;
+	margin-top: 15px;
+	opacity: 0.9;
+}
+#submit button :hover{
+	cursor: pointer;
+	opacity: 1;
+}
+.demo2{
+	color: #1b1b1b;
+	font-size: 17px;
+}
+#a1 {
+	color: #108df3;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+#a1:hover {
+	text-decoration: underline;
+	color: #d52727;
+
+}
+
+#a2 {
+	font-size: 17px;
+	text-decoration: none;
+	color: #108df3;
+	float: left;
+	margin-right: 0px;
+}
+
+#a2:hover {
+	text-decoration: underline;
+	color: #f32222;
+}
+

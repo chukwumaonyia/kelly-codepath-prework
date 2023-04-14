@@ -1,0 +1,88 @@
+fieldset {
+  margin: 20px 30% 20px 30%;
+  background-color: azure;
+}
+
+.rinput {
+  width: 90%;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+
+  border-bottom: 2px solid gray;
+
+}
+
+textarea {
+  max-width: 80%;
+  min-width: 80%;
+  max-height: 150px;
+  min-height: 150px;
+}
+
+.chima {
+  float: right;
+  background: orangered;
+  padding: 20px 150px 20px 150px;
+  color: wheat;
+  margin-right: 10%;
+  margin-bottom: 50%;
+  box-shadow: 0 6px 8px rgb(150, 77, 89);
+  border-top: 6px solid rgb(23, 16, 16);
+}
+
+.chima h1 {
+  color: rgb(185, 185, 204);
+  font-family: cursive;
+  text-shadow: 0 2px 8px rgb(26, 8, 11);
+}
+
+.ourgreet {
+  box-shadow: 0px 8px 16px 0px gray;
+  min-width: 160px;
+  padding: 12px;
+  background: #170841;
+  color: white;
+  margin-top: 5px;
+  position: absolute;
+  display: none;
+}
+
+.greet {
+  position: relative;
+}
+
+.greet button {
+  background: orangered;
+  border: orangered;
+  color: white;
+  padding: 5px 10px 5px 10px;
+}
+
+.greet:hover .ourgreet {
+  display: block;
+}
+ 
+body {
+  background-color: rgb(230, 205, 168);
+  animation-name: example1;
+  animation-duration: 35s;
+}
+
+/* @keyframes example1 {
+  0% {
+    background-color: rgb(235, 18, 235);
+  }
+
+  25% {
+    background-color: orange;
+  }
+
+  50% {
+    background-color: yellow;
+  }
+
+  100% {
+    background-color: red;
+  }
+} */
