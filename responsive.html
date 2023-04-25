@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>responsive site</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" type="image/jpg" href="image.html/LOGO.jpg "/>
+    </head>
+<style>
+    .one{
+        display: flex;
+        margin: 20px 10% 20px 10%;
+    }
+    .one p{
+        max-width: 50%;
+        padding-left: 50px;
+
+    }
+    body{
+        background-color: rgba(5, 5, 5, 0.728);
+    }
+    .two{
+        margin: 20px 10% 20px 10%;
+        display: none;
+    }
+    p{
+        color: white;
+    }
+@media screen and (max-width:900px){
+    .one{ display: none;}
+    .two{ display: block;}
+    
+}
+
+</style>
+    <body>
+        <div class="one">
+            <img src="image.html/cook 1.jpg" alt="" style="height: 150px;">
+            <p> KTOZACHI Fast Food is a food joint situated in a neat and calm environment,serving freshly prepared
+                instant meals such as spiced chicken,noodles, and cold drinks</p>
+        </div>
+        <div class="two">
+            <img src="image.html/LOGO.jpg" alt="" style="height: 200px;">
+            <p> KTOZACHI Fast Food is a food joint situated in a neat and <br> calm environment,serving freshly prepared
+                instant meals such as spiced chicken,noodles, and cold drinks</p>
+        </div>
+        
+    </body>
+    
+
+</html>
