@@ -10,16 +10,14 @@
     <link rel="shortcut icon" type="image/jpg" href="image.html/LOGO.jpg "/>
 </head>
 <style>
-    .contact-form input:not([type="submit"]),
-    .contact-form textarea {
-        width: 100%;
-        color: #d3d3d3;
+   
+    
 
-    }
-
-    .contact-form .text-right {
-        text-align: right;
+    .text-right {
+        text-align: center;
         color: #f8f2f2;
+        width: 40px;
+        
     }
 
     .contact-form button {
@@ -29,31 +27,8 @@
         border: none;
     }
 
-    .contact-form button:before,
-    .contact-form button:after {
-        content: " ";
-        width: 60px;
-        height: 50px;
-        background: #fceaea;
-    }
-
-    .contact-form button:before {
-        border-bottom: 2px solid #f4c545;
-        -webkit-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-        transform: rotate(-45deg);
-        top: -10px;
-        left: -10px;
-    }
-
-    .contact-form button:after {
-        border-top: 2px solid #f4c545;
-        -webkit-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-        transform: rotate(-45deg);
-        bottom: -10px;
-        right: -10px;
-    }
+   
+    
 
     .section-title {
         font-size: 36px;
@@ -120,21 +95,9 @@
         border-color: #f4c545;
     }
 
-    .site-footer .social-links a:hover:before,
-    .site-footer .social-links a:hover:after {
-        border-color: #f4c545;
-    }
+   
 
-    .site-footer .social-links a:before,
-    .site-footer .social-links a:after {
-        content: " ";
-        width: 10px;
-        height: 10px;
-        position: absolute;
-        background: #212121;
-        -webkit-transition: .3s ease;
-        transition: .3s ease;
-    }
+   
 
     .site-footer .social-links a:before {
         border-bottom: 2px solid #383838;
@@ -145,14 +108,7 @@
         left: -5px;
     }
 
-    .site-footer .social-links a:after {
-        border-top: 2px solid #383838;
-        -webkit-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-        transform: rotate(-45deg);
-        bottom: -5px;
-        right: -5px;
-    }
+   
 
     /* social link */
     .site-footer .social-links a {
@@ -173,56 +129,25 @@
         border-color: #f4c545;
     }
 
-    .site-footer .social-links a:hover:before,
-    .site-footer .social-links a:hover:after {
-        border-color: #f4c545;
-    }
-
-    .site-footer .social-links a:before,
-    .site-footer .social-links a:after {
-        content: " ";
-        width: 10px;
-        height: 10px;
-        position: absolute;
-        background: #212121;
-        -webkit-transition: .3s ease;
-        transition: .3s ease;
-    }
-
-    .site-footer .social-links a:before {
-        border-bottom: 2px solid #383838;
-        -webkit-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-        transform: rotate(-45deg);
-        top: -5px;
-        left: -5px;
-    }
-
-    .site-footer .social-links a:after {
-        border-top: 2px solid #383838;
-        -webkit-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-        transform: rotate(-45deg);
-        bottom: -5px;
-        right: -5px;
-    }
-
     body {
         background: #0c0c0c;
         color: rgb(246, 245, 240);
+        
 
 
     }
 
     .section-title {
-        text-align: right;
+        text-align: center;
         color: white;
+        
     }
 
     #text1 {
         height: 50px;
-        width: 600px;
+        width: 600%;
         color: #f4f2f2;
+        margin: 10px
     }
 
     .pull-left {
@@ -230,10 +155,11 @@
     }
 
     .kelly {
-        text-align: right;
+        text-align: center;
+        width: 09%;
         
     }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 800%) {
         .topnav a:not(:first-child) {
             display: none;
         }
@@ -244,7 +170,7 @@
         }
     }
 
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 800%) {
         .topnav.responsive {
             position: relative;
         }
@@ -292,9 +218,16 @@
     .topnav .icon {
         display: none;
     }
+    @media screen and (max-width:800%){
+    .one{ display: block;}
+    }
+   
+  .family{
+    
+  }
 </style>
 
-<body>
+<body class="one">
     <div class="topnav" id="myTopnav">
         <a href="=" ; class="active"></a>
         <a href="about.html" target="_blank">ABOUT</a>
@@ -304,21 +237,20 @@
             <i class="fa fa-bars"></i> </a>
     </div>
 
-    <div class="col-md-3 col-md-offset-1">
+    <div class="family">
         <div class="contact-form">
             <h2 class="section-title">Write us</h2>
-            <!-- <p>Dolores eos qui ratione voluptatem sequi nesciunt neque porro quisquam dolorem.</p> -->
 
             <form class="kelly">
 
                 <input id="text1" type="text" placeholder="Your name.." style="background-color: #3f3c3c;"> <br>
                 <input id="text1" type="text" placeholder="Email.." style="background-color: #3f3c3c;"> <br>
                 <input id="text1" type="text" placeholder="website.." style="background-color: #3f3c3c;"> <br>
-                <textarea placeholder="Message..." style="background-color: #3f3c3c; width: 600px;"></textarea>
+                <textarea placeholder="Message..." style="background-color: #3f3c3c; width: 600%;"></textarea>
 
-                <p class="text-right">
-                    <button type="submit" >Send message</button>
-                </p>
+                
+                    <button>Send message</button>
+            
             </form>
         </div>
     </div>
@@ -334,7 +266,7 @@
                 </address>
 
                 <a href="#" class="phone">+2348142839961 <br> +2348142839961 <br> +2348142839961</a>
-            </div> <!-- .pull-left -->
+            </div>
             <div class="pull-right">
 
 
